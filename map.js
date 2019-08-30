@@ -7,11 +7,9 @@ Array.prototype.myMap = function(callback){
   //console.log(this);  // посмотреть данные
   //console.log(callback);  // посмотреть функцию сallback
 
-  /*
   // var1 easy
   this.forEach(item => newArray.push(callback(item)));
-  */
-  
+    
   // var2 important "of" 
   /*
   for(let item of this) {
