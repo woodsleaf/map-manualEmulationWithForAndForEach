@@ -1,9 +1,10 @@
 const numbers = [10, 20, 30, 40];
 const doubledOver50 = numbers.reduce((finalList, num) => {
   
-  num = num * 2; //удвоить каждое число (аналог map)
+  num *= 2; //удвоить каждое число (аналог map)
   
   //отобрать числа > 50 (аналог filter)
+  // (num > 50) ? finalList.push(num) : false;
   if (num > 50) {
     finalList.push(num);
   }
